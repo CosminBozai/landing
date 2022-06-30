@@ -6,19 +6,19 @@ body {
   margin: 0;
 }
 
-/* Header segment */
-
-/* Container for the hero and main classes */
+.hero,
 header {
-  padding: 10px 260px 0px 260px;
-  background-color: #1f2937;
+  padding: 16px 200px 16px 200px;
 }
 
-/* Hero contains the logo (line 24) and the 3 links from the upper right (line 41) */
+/* Header segment */
+
+/* Hero contains the logo and the 3 links from the upper right */
 .hero {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 100px;
+
+  background-color: #1f2937;
 }
 
 .logo {
@@ -46,11 +46,18 @@ nav a {
 }
 
 /* The grid makes the h1, p and button separated from the header-img */
-main {
+header {
   display: flex;
-  gap: 120px;
+  justify-content: space-between;
 
+  padding-top: 100px;
   padding-bottom: 100px;
+
+  background-color: #1f2937;
+}
+
+.h-container {
+  width: 600px;
 }
 
 h1 {
@@ -83,6 +90,7 @@ h1 {
   cursor: pointer;
 }
 
+/* The image on the right of the header */
 .header-img {
-  height: 250px;
+  width: 500px;
 }
