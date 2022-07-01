@@ -58,6 +58,7 @@ header {
 
 .h-container {
   width: 520px;
+  flex-shrink: 0;
 }
 
 h1 {
@@ -92,6 +93,7 @@ h1 {
 
 /* The image on the right of the header */
 .header-img {
+  flex-shrink: 0;
   width: 500px;
 }
 
