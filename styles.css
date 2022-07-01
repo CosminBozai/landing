@@ -140,14 +140,17 @@ section img {
 }
 
 /* Quote */
+/* The min-width prevents the text from breaking line too much */
 article {
-  padding: 16px 200px 16px 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 1400px;
   background-color: #e5e7eb;
 }
 
-/* This div prevents the text from breaking line too much */
 article div {
-  min-width: 700px;
+  width: 720px;
 }
 
 .quote {
@@ -162,5 +165,5 @@ article div {
   font-weight: 500;
   text-align: end;
 
-  margin-right: 100px;
+  margin: 0 100px 0 0;
 }
