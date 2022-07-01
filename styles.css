@@ -145,12 +145,16 @@ article {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  padding-top: 40px;
+  padding-bottom: 50px;
+
   min-width: 1400px;
   background-color: #e5e7eb;
 }
 
 article div {
-  width: 720px;
+  width: 690px;
 }
 
 .quote {
@@ -166,4 +170,57 @@ article div {
   text-align: end;
 
   margin: 0 100px 0 0;
+}
+
+/* Call to action */
+.action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 80px;
+  padding-bottom: 80px;
+
+  min-width: 1400px;
+}
+
+.blue-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 700px;
+  padding: 34px 60px 34px 60px;
+
+  border-radius: 8px;
+
+  background-color: #3882f6;
+}
+
+.firstp {
+  color: #f9faf8;
+  font-size: 20px;
+  font-weight: 600;
+
+  margin: 0;
+}
+
+.secondp {
+  color: #dfdfdf;
+  font-weight: 400;
+
+  margin: 0;
+}
+
+.blue-box button {
+  color: #f9faf8;
+  font-size: 12px;
+  font-weight: 800;
+  background-color: #3882f6;
+
+  padding: 5px 18px 5px 18px;
+  border: 2px solid white;
+  border-radius: 6px;
+
+  cursor: pointer;
 }
