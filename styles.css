@@ -224,3 +224,13 @@ article div {
 
   cursor: pointer;
 }
+
+footer {
+  background-color: #1f2937;
+  text-align: center;
+  min-width: 1400px;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #e5e7eb;
+}
